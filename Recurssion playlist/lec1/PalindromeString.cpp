@@ -36,3 +36,6 @@ else{
 }
 return 0;
 }
+
+
+// we can use another approach in which we will compare i th element with n-1-i th element using recursion and if we get mismatch then we can comment as false 
