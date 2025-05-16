@@ -8,6 +8,7 @@ function partitionHelper(str, start, path, result) {
         result.push([...path]);
         return;
     }  
+// here what are we doing, we are partition of a string and left part of it is fixed mtlb that is fixed partition for that string and now we will look for right one from that index
     for (let end = start; end < str.length; end++) {
         let substr = str.substring(start, end + 1);
         path.push(substr);
